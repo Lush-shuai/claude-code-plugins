@@ -1,13 +1,25 @@
 {
-  "name": "my-plugins",
+  "name": "lcs-skills-plugin",
   "owner": {
-    "name": "Your Name"
+    "name": "lu-shuaishuai"
   },
   "plugins": [
     {
-      "name": "review-plugin",
-      "source": "./plugins/review-plugin",
-      "description": "Adds a /review skill for quick code reviews"
+      "name": "design-skills-plugin",
+      "source": "./",
+      "description": "设计图技能插件，包含一些设计图相关的技能",
+      "skils":[
+        "./skills/lcs-uml-design",
+        "./skills/lcs-hello-world"
+      ]
+    },
+    {
+      "name": "code-skills-plugin",
+      "source": "./",
+      "description": "代码技能插件，包含一些代码相关的技能",
+      "skils":[
+        "./skills/lcs-code-review"
+      ]
     }
   ]
 }
