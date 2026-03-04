@@ -8,7 +8,7 @@
       "name": "design-skills-plugin",
       "source": "./",
       "description": "设计图技能插件，包含一些设计图相关的技能",
-      "skils":[
+      "skills":[
         "./skills/lcs-uml-design",
         "./skills/lcs-hello-world"
       ]
@@ -17,7 +17,7 @@
       "name": "code-skills-plugin",
       "source": "./",
       "description": "代码技能插件，包含一些代码相关的技能",
-      "skils":[
+      "skills":[
         "./skills/lcs-code-review"
       ]
     }
